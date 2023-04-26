@@ -7,7 +7,7 @@
     --font-color-2: #666;
     --font-color-3: #aaa;
     --bg-color-1: #eee;
-    --line-1: #ccc;
+    --line-1: #ececec;
     --line-2: #ddd;
 }
 p
@@ -39,6 +39,7 @@ a
 {
     width: 100%;
     /* max-width: 880px; */
+    max-width: 1100px;
     margin: 0 auto;
     padding: 72px 8vw 24px;
     background: #fff;
