@@ -38,7 +38,7 @@ a
 .paper-main
 {
     width: 100%;
-    max-width: 880px;
+    /* max-width: 880px; */
     margin: 0 auto;
     padding: 72px 8vw 24px;
     background: #fff;
