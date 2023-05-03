@@ -300,7 +300,7 @@ a
     font-size: 0.875rem;
     color: var(--font-color-3);
     flex: 0 0 100%;
-    margin-bottom: 32px;
+    margin-bottom: 15px;
 }
 
 .archive
@@ -346,4 +346,44 @@ a
 {
     color: var(--font-color-0);
     transition: color ease-in-out .5s;
+}
+
+
+
+
+
+/* 文章分类 */
+.tags {
+    margin-bottom: 32px;
+}
+
+.tags a {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0 1em;
+    height: 28px;
+    line-height: 28px;
+    border-radius: 28px;
+    background-color:#000;
+    color: #fff;
+    text-decoration: none
+}
+
+.tags a+a {
+    margin-left: .2em
+}
+
+.tags .new {
+    --color: #3778FF;
+    color: #fff
+}
+
+.tags .update {
+    --color: #E016C4;
+    color: #fff
+}
+
+.tags .fix,.tags .bugfix {
+    --color: #FF4772;
+    color: #fff
 }
