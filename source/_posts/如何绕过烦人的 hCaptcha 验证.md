@@ -3,7 +3,8 @@ title: 如何绕过烦人的 hCaptcha 验证
 date: 2023-05-17 04:15:00
 category: skill
 tags:
-    - hCaptcha
+    - tool
+    - hcaptcha
 permalink: disabling-hcaptcha.html
 index: false
 ---
