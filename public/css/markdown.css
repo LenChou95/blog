@@ -56,7 +56,7 @@
 .post-md a
 {
     color: var(--font-color-2);
-    box-shadow: 0 2px 0 var(--line-1);
+    box-shadow: 0 1.5px 0 #de1267;
     transition: color ease-in-out .65s, box-shadow ease-in-out .65s;
 }
 .post-md a:hover

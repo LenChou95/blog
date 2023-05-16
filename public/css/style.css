@@ -3,11 +3,11 @@
 :root
 {
     --font-color-0: #de1267;
-    --font-color-1: #000;
-    --font-color-2: #666;
+    --font-color-1: #252525;
+    --font-color-2: #333;
     --font-color-3: #aaa;
     --bg-color-1: #eee;
-    --line-1: #ececec;
+    --line-1: #eee;
     --line-2: #ddd;
 }
 p
