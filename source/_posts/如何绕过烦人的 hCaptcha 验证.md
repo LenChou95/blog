@@ -12,7 +12,7 @@ index: false
 ## 什么是 hCaptcha？
 hCaptcha 是一种人类验证服务，类似于 Google reCAPTCHA。它旨在识别并区分人类用户和机器人，并帮助防止常见的 Web 自动化攻击，如 DoS、恶意机器人攻击和无节制的 Web 爬取。
 
-但 hCaptcha 对机器人有没有拦截我不清楚，对正常人类却带来了极大的不便。
+从我自己的体验来说，hCaptcha 对机器人有没有拦截我不清楚，但对正常人类来了极大的不便。我们想个办法，绕过 hCaptcha 及其频繁、无意义的图像验证：
 
 ## 通过无障碍服务，绕过 hCaptcha 验证
 1. 通过 [这个链接](https://dashboard.hcaptcha.com/signup?type=accessibility) 注册无障碍服务，请填写真实可用的邮箱地址；
