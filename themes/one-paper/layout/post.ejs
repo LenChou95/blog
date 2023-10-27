@@ -6,17 +6,20 @@
             <%= page.title %>
         </div>
         <div class="post-meta">
-            <%- date(page.date, "YYYY-MM-DD") %>
-        </div>
-
-
-
-
-        <div class="tags">
+            <%- date(page.date, "YYYY-MM-DD") %> ｜ 
             <% page.categories.forEach(function(category) { %>
                 <a href="<%= url_for(category.path) %>"><%= category.name %></a>
             <% }); %>
         </div>
+
+
+
+        <!-- 圆角分类 -->
+        <!-- <div class="tags"> -->
+            <!-- <% page.categories.forEach(function(category) { %> -->
+                <!-- <a href="<%= url_for(category.path) %>"><%= category.name %></a> -->
+            <!-- <% }); %> -->
+        <!-- </div> -->
 
 
 
