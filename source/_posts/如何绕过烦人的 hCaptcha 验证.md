@@ -1,12 +1,13 @@
 ---
 title: 如何绕过烦人的 hCaptcha 验证
 date: 2023-05-17 04:15:00
-category: skill
-tags:
-    - tool
-    - hcaptcha
+categories: 
+- [折腾]
+tags: 
+- [技巧]
+- [hcaptcha]
+- [验证码]
 permalink: disabling-hcaptcha.html
-index: false
 ---
 
 ## 什么是 hCaptcha？
