@@ -66,9 +66,30 @@ index_generator:
   order_by: -date
 
 # Category & Tag
-default_category: uncategorized
+default_category:
 category_map:
+  杂记: miscellanies
+  碎片思考: thinking
+  折腾: experimentation
+  利器: tool
+
 tag_map:
+  Crypto: crypto
+  金融: finance
+  货币: currency
+  转载: repost
+  KnewOne: knewone
+  设备: equipment
+  App: app
+  约稿: Commissioning
+  技巧: skill
+  验证码: captcha
+  产品经理: product-manager
+  臆想: imagination
+  职能: function
+  修真玄幻: cultivation-fantasy
+  优酷: youku
+  陌陌: momo
 
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
