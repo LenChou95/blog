@@ -32,11 +32,11 @@
     <% } %>
 
 <!-- tags -->
-<% if (page.tags.length > 0) { %>
+<% if (page.tags && page.tags.length > 0) { %>
     <div class="post-meta">
         标签：
         <% page.tags.forEach(function(tags) { %>
-            <a href="<%= url_for(tags.path) %>"> <%= tags.name %></a>
+            <a href="<%= url_for(tags.path) %>"> / <%= tags.name %></a>
         <% }); %>
     </div>
 <% } %>
