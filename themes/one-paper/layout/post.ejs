@@ -8,11 +8,9 @@
         <div class="post-meta">
             <%- date(page.date, "YYYY-MM-DD") %> ｜ 
             <% page.categories.forEach(function(category) { %>
-                <a href="<%= url_for(category.path) %>"><%= category.name %></a>
+                <a href="<%= url_for(category.path) %>"># <%= category.name %></a>
             <% }); %>
         </div>
-
-
 
         <!-- 圆角分类 -->
         <!-- <div class="tags"> -->
@@ -20,9 +18,6 @@
                 <!-- <a href="<%= url_for(category.path) %>"><%= category.name %></a> -->
             <!-- <% }); %> -->
         <!-- </div> -->
-
-
-
 
         <div class="post-md">
             <%- page.content %>
@@ -35,6 +30,18 @@
         </div>
 
     <% } %>
+
+<!-- tags -->
+<% if (page.tags.length > 0) { %>
+    <div class="post-meta">
+        标签：
+        <% page.tags.forEach(function(tags) { %>
+            <a href="<%= url_for(tags.path) %>"> <%= tags.name %></a>
+        <% }); %>
+    </div>
+<% } %>
+
+
 
 </div>
 
