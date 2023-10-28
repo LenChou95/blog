@@ -55,8 +55,9 @@
 }
 .post-md a
 {
-    color: var(--font-color-2);
-    box-shadow: 0 1.5px 0 #de1267;
+    color: var(--font-color-0);
+    /* box-shadow: 0 1.5px 0 #de1267; */
+    /* text-decoration: underline dotted; */
     transition: color ease-in-out .65s, box-shadow ease-in-out .65s;
 }
 .post-md a:hover
