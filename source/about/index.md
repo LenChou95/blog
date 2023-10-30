@@ -1,5 +1,5 @@
 ---
-title: About me
+title: About
 date: 2023-05-01 00:30:00
 description: 关于 LenChou（周良粥凉）
 permalink: about/
@@ -10,7 +10,7 @@ permalink: about/
 
 
 95 年的天蝎，出生于一个商人世家，**努力做一个创造者。**
-
+我一生没有上过大学，但我一直认为生活就是我的大学。
 
 <br/>
 

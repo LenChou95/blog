@@ -136,27 +136,6 @@
   </url>
   
   <url>
-    <loc>https://imzl.com/tags/app/</loc>
-    <lastmod>2023-10-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://imzl.com/tags/equipment/</loc>
-    <lastmod>2023-10-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://imzl.com/tags/commissioning/</loc>
-    <lastmod>2023-10-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://imzl.com/tags/skill/</loc>
     <lastmod>2023-10-30</lastmod>
     <changefreq>weekly</changefreq>
@@ -178,7 +157,21 @@
   </url>
   
   <url>
-    <loc>https://imzl.com/tags/knewone/</loc>
+    <loc>https://imzl.com/tags/app/</loc>
+    <lastmod>2023-10-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://imzl.com/tags/equipment/</loc>
+    <lastmod>2023-10-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://imzl.com/tags/commissioning/</loc>
     <lastmod>2023-10-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -207,6 +200,13 @@
   
   <url>
     <loc>https://imzl.com/tags/repost/</loc>
+    <lastmod>2023-10-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://imzl.com/tags/knewone/</loc>
     <lastmod>2023-10-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -243,14 +243,14 @@
   </url>
   
   <url>
-    <loc>https://imzl.com/categories/tool/</loc>
+    <loc>https://imzl.com/categories/experimentation/</loc>
     <lastmod>2023-10-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://imzl.com/categories/experimentation/</loc>
+    <loc>https://imzl.com/categories/tool/</loc>
     <lastmod>2023-10-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
