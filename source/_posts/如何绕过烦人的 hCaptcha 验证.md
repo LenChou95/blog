@@ -7,6 +7,7 @@ tags:
 - [技巧]
 - [hcaptcha]
 - [验证码]
+description: 了解 hCaptcha 的绕过方法：如何简化人机验证过程并避免频繁、无意义的图像验证。立即阅读，轻松绕过 hCaptcha 验证
 permalink: disabling-hcaptcha.html
 ---
 
