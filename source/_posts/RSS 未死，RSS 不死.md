@@ -5,6 +5,7 @@ categories:
 - [杂记]
 tags: 
 - [RSS]
+description: 探讨 RSS 在当前数字时代的重要性与不断变化的应用场景。该文章反驳了 RSS 已经过时的观点，揭示了它在新媒体和新闻聚合应用中的关键角色。读后你会重新认识 RSS 的价值。
 permalink: 96.html
 ---
 
