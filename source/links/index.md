@@ -2,7 +2,7 @@
 title: Friends
 date: 2023-10-27 22:30:00
 description: LenChou（周良粥凉）的朋友们。
-permalink: /links/
+permalink: links/index.html
 ---
 
 ## 我的好友 · My Friends

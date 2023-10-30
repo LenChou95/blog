@@ -17,8 +17,11 @@ url: https://imzl.com
 permalink: :title/
 permalink_defaults: title/
 pretty_urls:
-  trailing_index: falses # Set to false to remove trailing 'index.html' from permalinks
-  trailing_html: falses # Set to false to remove trailing '.html' from permalinks
+  trailing_index: false # Set to false to remove trailing 'index.html' from permalinks
+  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+
+pretty_urls.trailing_index: flase
+pretty_urls.trailing_html: true
 
 # Directory
 source_dir: source
@@ -129,6 +132,11 @@ deploy:
 google_analytics:
   enable: true
   id: UA-28119108-2
+
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
 
 
 
