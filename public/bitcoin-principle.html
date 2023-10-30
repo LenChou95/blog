@@ -1,25 +1,77 @@
 <!DOCTYPE html>
 <html>
     <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport" />
-  <link rel="alternate icon" type="image/png" href="/favicon.ico">
-  
-      <title>白话比特币原理及运作机制 - Len</title>
-  
-  
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport" />
+    <meta name="robots" content="index, follow">
+    <!-- title -->
+    
+    <title>白话比特币原理及运作机制 - Len</title>
+    
+    <!-- open graph -->
+    <meta name="description" content="最近在整理 Crypto 的资料，搜索到张洋的这篇文章，可能是写的最好的比特币原理及运作机制讲解故事，故转载至此进行分享。 这篇文章的定位会比较科普，尽量用类比的方法将比特币的基本原理讲出来，不会涉及算法和协议中细节的部分。 文中会给出一个虚拟的村庄叫「比特村」，整体以讲故事的方式，逐步告诉大家比特币提出的动机、解决了什么问题以及一些关键组件的目标和设计方案。 以物易物的比特村话说在这个世界上，有">
+<meta property="og:type" content="article">
+<meta property="og:title" content="白话比特币原理及运作机制">
+<meta property="og:url" content="https://imzl.com/bitcoin-principle.html">
+<meta property="og:site_name" content="Len">
+<meta property="og:description" content="最近在整理 Crypto 的资料，搜索到张洋的这篇文章，可能是写的最好的比特币原理及运作机制讲解故事，故转载至此进行分享。 这篇文章的定位会比较科普，尽量用类比的方法将比特币的基本原理讲出来，不会涉及算法和协议中细节的部分。 文中会给出一个虚拟的村庄叫「比特村」，整体以讲故事的方式，逐步告诉大家比特币提出的动机、解决了什么问题以及一些关键组件的目标和设计方案。 以物易物的比特村话说在这个世界上，有">
+<meta property="og:locale">
+<meta property="og:image" content="https://img.imzl.com/wp-content/uploads/2021/11/1637783546-bitcoin-mechanism-01.png">
+<meta property="og:image" content="https://img.imzl.com/wp-content/uploads/2021/11/1637783620-bitcoin-mechanism-02.png">
+<meta property="og:image" content="https://img.imzl.com/wp-content/uploads/2021/11/1637783682-bitcoin-mechanism-03.png">
+<meta property="og:image" content="https://img.imzl.com/wp-content/uploads/2021/11/1637783714-bitcoin-mechanism-04.png">
+<meta property="og:image" content="https://img.imzl.com/wp-content/uploads/2021/11/1637783753-bitcoin-mechanism-05.png">
+<meta property="og:image" content="https://img.imzl.com/wp-content/uploads/2021/11/1637783804-bitcoin-mechanism-06.png">
+<meta property="og:image" content="https://img.imzl.com/wp-content/uploads/2021/11/1637783852-bitcoin-mechanism-07.png">
+<meta property="og:image" content="https://img.imzl.com/wp-content/uploads/2021/11/1637783887-bitcoin-mechanism-08.png">
+<meta property="og:image" content="https://img.imzl.com/wp-content/uploads/2021/11/1637783962-bitcoin-mechanism-09.png">
+<meta property="og:image" content="https://img.imzl.com/wp-content/uploads/2021/11/1637783996-bitcoin-mechanism-10.png">
+<meta property="og:image" content="https://img.imzl.com/wp-content/uploads/2021/11/1637784030-bitcoin-mechanism-11.png">
+<meta property="og:image" content="https://img.imzl.com/wp-content/uploads/2021/11/1637784087-bitcoin-mechanism-12.png">
+<meta property="og:image" content="https://img.imzl.com/wp-content/uploads/2021/11/1637784118-bitcoin-mechanism-13.png">
+<meta property="og:image" content="https://img.imzl.com/wp-content/uploads/2021/11/1637784169-bitcoin-mechanism-14.png">
+<meta property="og:image" content="https://img.imzl.com/wp-content/uploads/2021/11/1637784229-bitcoin-mechanism-15.png">
+<meta property="og:image" content="https://img.imzl.com/wp-content/uploads/2021/11/1637784270-bitcoin-mechanism-16.png">
+<meta property="og:image" content="https://img.imzl.com/wp-content/uploads/2021/11/1637784303-bitcoin-mechanism-17.png">
+<meta property="article:published_time" content="2021-11-25T00:00:00.000Z">
+<meta property="article:modified_time" content="2023-10-27T14:55:07.393Z">
+<meta property="article:author" content="Len Chou">
+<meta property="article:tag" content="Bitcoin">
+<meta property="article:tag" content="金融">
+<meta property="article:tag" content="货币">
+<meta property="article:tag" content="转载">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://img.imzl.com/wp-content/uploads/2021/11/1637783546-bitcoin-mechanism-01.png">
+    <!-- canonical -->
+    
+    <link rel="canonical" href="https://imzl.com/bitcoin-principle.html">
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/img/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y86KN4GF2G"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-Y86KN4GF2G');
+    </script>
+    <!-- CSS -->
+    
 <link rel="stylesheet" href="/css/reset.css">
 
-  
+    
 <link rel="stylesheet" href="/css/style.css">
 
-  
+    
 <link rel="stylesheet" href="/css/markdown.css">
 
-  
+    
 <link rel="stylesheet" href="/css/fonts.css">
 
-<meta name="generator" content="Hexo 6.3.0"></head>
+  <meta name="generator" content="Hexo 6.3.0"></head>
+  
     <body>
         <div class="paper">
             <div class="paper-main">
@@ -44,8 +96,6 @@
 
                 
                 <div class="post-main">
-
-    
     
         <div class="post-main-title">
             白话比特币原理及运作机制
@@ -56,14 +106,12 @@
                 <a href="/categories/Crypto/"># Crypto</a>
             
         </div>
-
         <!-- 圆角分类 -->
         <!-- <div class="tags"> -->
             <!--  -->
                 <!-- <a href="/categories/Crypto/">Crypto</a> -->
             <!--  -->
         <!-- </div> -->
-
         <div class="post-md">
             <p>最近在整理 Crypto 的资料，搜索到张洋的这篇文章，可能是写的最好的比特币原理及运作机制讲解故事，故转载至此进行分享。</p>
 <p>这篇文章的定位会比较科普，尽量用类比的方法将比特币的基本原理讲出来，不会涉及算法和协议中细节的部分。</p>
@@ -207,9 +255,7 @@
 <p>via.<a target="_blank" rel="noopener" href="https://blog.codinglabs.org/articles/bitcoin-mechanism-make-easy.html">原文地址</a></p>
 
         </div>
-
     
-
 <!-- tags -->
 
     <div class="post-meta">
@@ -225,35 +271,10 @@
         
     </div>
 
-
-
-
 </div>
-
-
-
-
-
-
-
-
                 <div class="footer">
     <span>Copyright © 2023 Len</span>
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-28119108-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-28119108-2');
-</script>
-
-
-
 </div>
-
 
 <link rel="stylesheet" href="/css/a11y-dark.min.css">
 
@@ -262,7 +283,6 @@
 
 
 <script src="/js/highlightjs-line-numbers.js"></script>
-
 
 <script>
     hljs.initHighlightingOnLoad();
