@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Len Chou</title>
+  <icon>https://imzl.com/icon.png</icon>
+  <subtitle>创造我所热爱的生活</subtitle>
+  <link href="https://imzl.com/rss.xml" rel="self"/>
+  
+  <link href="https://imzl.com/"/>
+  <updated>2023-10-30T11:27:49.713Z</updated>
+  <id>https://imzl.com/</id>
+  
+  <author>
+    <name>Len Chou</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>如何绕过烦人的 hCaptcha 验证</title>
+    <link href="https://imzl.com/disabling-hcaptcha.html"/>
+    <id>https://imzl.com/disabling-hcaptcha.html</id>
+    <published>2023-05-16T20:15:00.000Z</published>
+    <updated>2023-10-30T11:27:49.713Z</updated>
+    
+    
+    <summary type="html">了解 hCaptcha 的绕过方法：如何简化人机验证过程并避免频繁、无意义的图像验证。立即阅读，轻松绕过 hCaptcha 验证</summary>
+    
+    
+    
+    <category term="折腾" scheme="https://imzl.com/categories/experimentation/"/>
+    
+    
+    <category term="技巧" scheme="https://imzl.com/tags/skill/"/>
+    
+    <category term="hcaptcha" scheme="https://imzl.com/tags/hcaptcha/"/>
+    
+    <category term="验证码" scheme="https://imzl.com/tags/captcha/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>白话比特币原理及运作机制</title>
+    <link href="https://imzl.com/bitcoin-principle.html"/>
+    <id>https://imzl.com/bitcoin-principle.html</id>
+    <published>2021-11-25T00:00:00.000Z</published>
+    <updated>2023-10-27T14:55:07.393Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;最近在整理 Crypto</summary>
+        
+      
+    
+    
+    
+    <category term="Crypto" scheme="https://imzl.com/categories/Crypto/"/>
+    
+    
+    <category term="Bitcoin" scheme="https://imzl.com/tags/Bitcoin/"/>
+    
+    <category term="金融" scheme="https://imzl.com/tags/finance/"/>
+    
+    <category term="货币" scheme="https://imzl.com/tags/currency/"/>
+    
+    <category term="转载" scheme="https://imzl.com/tags/repost/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>什么是产品人?</title>
+    <link href="https://imzl.com/producter.html"/>
+    <id>https://imzl.com/producter.html</id>
+    <published>2021-09-06T13:00:00.000Z</published>
+    <updated>2023-10-30T11:32:06.939Z</updated>
+    
+    
+    <summary type="html">碎片思考什么是产品人：产品经理需要平衡商业价值和用户价值的文章。了解如何超越表面的设计交互，找到真正的产品优势。</summary>
+    
+    
+    
+    <category term="杂记" scheme="https://imzl.com/categories/miscellanies/"/>
+    
+    <category term="碎片思考" scheme="https://imzl.com/categories/thinking/"/>
+    
+    
+    <category term="产品经理" scheme="https://imzl.com/tags/product-manager/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>修真世界</title>
+    <link href="https://imzl.com/868.html"/>
+    <id>https://imzl.com/868.html</id>
+    <published>2020-09-24T14:00:00.000Z</published>
+    <updated>2023-10-30T13:36:43.008Z</updated>
+    
+    
+    <summary type="html">探索「修真世界」与现实职场的惊人相似性。从灵力到炼丹，如何运用修真玄幻中的原则优化你的职能和天赋。</summary>
+    
+    
+    
+    <category term="杂记" scheme="https://imzl.com/categories/miscellanies/"/>
+    
+    <category term="碎片思考" scheme="https://imzl.com/categories/thinking/"/>
+    
+    
+    <category term="臆想" scheme="https://imzl.com/tags/imagination/"/>
+    
+    <category term="职能" scheme="https://imzl.com/tags/function/"/>
+    
+    <category term="修真玄幻" scheme="https://imzl.com/tags/cultivation-fantasy/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>追气球的熊孩子</title>
+    <link href="https://imzl.com/166.html"/>
+    <id>https://imzl.com/166.html</id>
+    <published>2018-04-02T06:23:00.000Z</published>
+    <updated>2023-10-30T11:34:30.085Z</updated>
+    
+    
+    <summary type="html">《追气球的熊孩子》揭露了优酷与陌陌如何不当对待年轻创作者 Niko。凭借真实的邮件、录音和视频资料，文章已赢得超过10万次的转发。深入了解这一震动互联网的真实事件，及其背后暗藏的商业伦理问题。</summary>
+    
+    
+    
+    <category term="杂记" scheme="https://imzl.com/categories/miscellanies/"/>
+    
+    
+    <category term="优酷" scheme="https://imzl.com/tags/youku/"/>
+    
+    <category term="陌陌" scheme="https://imzl.com/tags/momo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我是周良粥凉，这是我所使用的利器</title>
+    <link href="https://imzl.com/522.html"/>
+    <id>https://imzl.com/522.html</id>
+    <published>2015-08-01T17:25:00.000Z</published>
+    <updated>2023-10-27T14:55:09.418Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;介绍一下你自己和所做的工作。&quot;&gt;&lt;a href=&quot;#介绍一下你自己和所做的工作。&quot; class=&quot;headerlink&quot; title=&quot;介绍一下你自己和所做的工作。&quot;&gt;&lt;/a&gt;介绍一下你自己和所做的工作。&lt;/h2&gt;&lt;p&gt;我叫周良，95</summary>
+        
+      
+    
+    
+    
+    <category term="利器" scheme="https://imzl.com/categories/tool/"/>
+    
+    
+    <category term="App" scheme="https://imzl.com/tags/app/"/>
+    
+    <category term="设备" scheme="https://imzl.com/tags/equipment/"/>
+    
+    <category term="约稿" scheme="https://imzl.com/tags/commissioning/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>盘点我所使用的装备</title>
+    <link href="https://imzl.com/281.html"/>
+    <id>https://imzl.com/281.html</id>
+    <published>2014-12-25T01:03:00.000Z</published>
+    <updated>2023-10-27T14:55:21.976Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;95年、GEEK、设计师、开发者，这几个词语放在一个人身上是不是有点儿令人惊奇？周良就是这些标签的拥有者，95 年出生的他，爱好是折腾，也在自己所属领域里折腾出了很多「名堂」。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3</summary>
+        
+      
+    
+    
+    
+    <category term="利器" scheme="https://imzl.com/categories/tool/"/>
+    
+    
+    <category term="App" scheme="https://imzl.com/tags/app/"/>
+    
+    <category term="设备" scheme="https://imzl.com/tags/equipment/"/>
+    
+    <category term="约稿" scheme="https://imzl.com/tags/commissioning/"/>
+    
+    <category term="KnewOne" scheme="https://imzl.com/tags/knewone/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>RSS 未死，RSS 不死</title>
+    <link href="https://imzl.com/96.html"/>
+    <id>https://imzl.com/96.html</id>
+    <published>2014-11-18T14:54:00.000Z</published>
+    <updated>2023-10-30T11:36:42.995Z</updated>
+    
+    
+    <summary type="html">探讨 RSS 在当前数字时代的重要性与不断变化的应用场景。该文章反驳了 RSS 已经过时的观点，揭示了它在新媒体和新闻聚合应用中的关键角色。读后你会重新认识 RSS 的价值。</summary>
+    
+    
+    
+    <category term="杂记" scheme="https://imzl.com/categories/miscellanies/"/>
+    
+    
+    <category term="RSS" scheme="https://imzl.com/tags/RSS/"/>
+    
+  </entry>
+  
+</feed>
