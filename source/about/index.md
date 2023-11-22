@@ -2,7 +2,7 @@
 title: About
 date: 2023-05-01 00:30:00
 description: 关于 LenChou（周良粥凉）
-permalink: about
+# permalink: about
 ---
 
 ## About me
