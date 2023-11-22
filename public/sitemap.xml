@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://imzl.com/starknet-cairo.html</loc>
+    
+    <lastmod>2023-11-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://imzl.com/starknet-ecmp.html</loc>
     
     <lastmod>2023-11-22</lastmod>
@@ -237,6 +246,13 @@
   
   <url>
     <loc>https://imzl.com/tags/communal/</loc>
+    <lastmod>2023-11-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://imzl.com/tags/coding/</loc>
     <lastmod>2023-11-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
