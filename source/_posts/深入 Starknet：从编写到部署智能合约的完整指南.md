@@ -5,8 +5,8 @@ categories:
 - [Starknet]
 tags: 
 - [coding]
-description: Starknet 早期社区成员计划申请指南，帮助 Starknet 社区每一个成员快速了解 ECMP 内容与申请途径。
-permalink: starknet-cairo.html
+description: Starknet 作为一个强大的 Layer 2 扩展解决方案，提供了在以太坊生态系统中编写和部署高效智能合约的独特方法。由于我最近也在学习 Starknet 的智能合约开发，简单写一篇文章记录最基础的智能合约编写、测试和部署过程。
+permalink: starknet-contract.html
 ---
 Starknet 作为一个强大的 Layer 2 扩展解决方案，提供了在以太坊生态系统中编写和部署高效智能合约的独特方法。由于我最近也在学习 Starknet 的智能合约开发，简单写一篇文章记录最基础的智能合约编写、测试和部署过程。
 
