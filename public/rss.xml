@@ -6,7 +6,7 @@
   <link href="https://imzl.com/rss.xml" rel="self"/>
   
   <link href="https://imzl.com/"/>
-  <updated>2023-10-30T11:27:49.713Z</updated>
+  <updated>2023-11-22T13:25:15.910Z</updated>
   <id>https://imzl.com/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Starknet 早期社区成员计划申请指南</title>
+    <link href="https://imzl.com/starknet-ecmp.html"/>
+    <id>https://imzl.com/starknet-ecmp.html</id>
+    <published>2023-11-01T13:00:00.000Z</published>
+    <updated>2023-11-22T13:25:15.910Z</updated>
+    
+    
+    <summary type="html">Starknet 早期社区成员计划申请指南，帮助 Starknet 社区每一个成员快速了解 ECMP 内容与申请途径。</summary>
+    
+    
+    
+    <category term="Starknet" scheme="https://imzl.com/categories/Starknet/"/>
+    
+    
+    <category term="社区" scheme="https://imzl.com/tags/communal/"/>
+    
+  </entry>
   
   <entry>
     <title>如何绕过烦人的 hCaptcha 验证</title>
@@ -82,9 +101,9 @@
     
     
     
-    <category term="杂记" scheme="https://imzl.com/categories/miscellanies/"/>
-    
     <category term="碎片思考" scheme="https://imzl.com/categories/thinking/"/>
+    
+    <category term="杂记" scheme="https://imzl.com/categories/miscellanies/"/>
     
     
     <category term="产品经理" scheme="https://imzl.com/tags/product-manager/"/>
@@ -103,9 +122,9 @@
     
     
     
-    <category term="杂记" scheme="https://imzl.com/categories/miscellanies/"/>
-    
     <category term="碎片思考" scheme="https://imzl.com/categories/thinking/"/>
+    
+    <category term="杂记" scheme="https://imzl.com/categories/miscellanies/"/>
     
     
     <category term="臆想" scheme="https://imzl.com/tags/imagination/"/>
