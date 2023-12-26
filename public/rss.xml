@@ -6,7 +6,7 @@
   <link href="https://imzl.com/rss.xml" rel="self"/>
   
   <link href="https://imzl.com/"/>
-  <updated>2023-11-22T13:25:15.910Z</updated>
+  <updated>2023-12-26T17:35:43.337Z</updated>
   <id>https://imzl.com/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Atomicals 挖矿程序部署与钱包管理</title>
+    <link href="https://imzl.com/atomicals-mining.html"/>
+    <id>https://imzl.com/atomicals-mining.html</id>
+    <published>2023-12-26T17:13:00.000Z</published>
+    <updated>2023-12-26T17:35:43.337Z</updated>
+    
+    
+    <summary type="html">零基础 Atomicals 挖矿程序部署与钱包管理教程，帮助你从零开始获取 Atomicals BTC 铭文资产。</summary>
+    
+    
+    
+    <category term="Atomicals" scheme="https://imzl.com/categories/Atomicals/"/>
+    
+    
+    <category term="Atomicals" scheme="https://imzl.com/tags/Atomicals/"/>
+    
+  </entry>
   
   <entry>
     <title>Starknet 早期社区成员计划申请指南</title>

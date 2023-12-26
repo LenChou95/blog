@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport" />
+    <meta name="robots" content="index, follow">
+    <!-- title -->
+    
+    <title>Atomicals 挖矿程序部署与钱包管理 - Len Chou</title>
+    
+    <!-- open graph -->
+    <meta name="description" content="零基础 Atomicals 挖矿程序部署与钱包管理教程，帮助你从零开始获取 Atomicals BTC 铭文资产。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Atomicals 挖矿程序部署与钱包管理">
+<meta property="og:url" content="https://imzl.com/atomicals-mining.html">
+<meta property="og:site_name" content="Len Chou">
+<meta property="og:description" content="零基础 Atomicals 挖矿程序部署与钱包管理教程，帮助你从零开始获取 Atomicals BTC 铭文资产。">
+<meta property="og:locale">
+<meta property="article:published_time" content="2023-12-26T17:13:00.000Z">
+<meta property="article:modified_time" content="2023-12-26T17:35:43.337Z">
+<meta property="article:author" content="Len Chou">
+<meta property="article:tag" content="Atomicals">
+<meta name="twitter:card" content="summary">
+    <!-- canonical -->
+    
+    <link rel="canonical" href="https://imzl.com/atomicals-mining.html">
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/img/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y86KN4GF2G"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-Y86KN4GF2G');
+    </script>
+    <script defer data-domain="imzl.com" src="https://plausible.io/js/script.js"></script>
+    <!-- CSS -->
+    
+<link rel="stylesheet" href="/css/reset.css">
+
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    
+<link rel="stylesheet" href="/css/markdown.css">
+
+    
+<link rel="stylesheet" href="/css/fonts.css">
+
+  <meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/rss.xml" title="Len Chou" type="application/atom+xml">
+</head>
+  
+    <body>
+        <div class="paper">
+            <div class="paper-main">
+                
+                    <div class="post-header">
+    <!-- <a class="logo" href="/">Len Chou</a> -->
+    <div class="logo"><a href="/" title="Len"><img src="/img/logo.svg" alt="Len" aria-label="logo" height="20"></a></div>
+        <ul class="nav">
+            
+            <li><a href="/">Home</a></li>
+            
+            <li><a href="/about">About</a></li>
+            
+            <li><a href="/archives">Archives</a></li>
+            
+        </ul>
+
+
+    </a>
+</div>
+
+                
+                <div class="post-main">
+    
+        <div class="post-main-title">
+            Atomicals 挖矿程序部署与钱包管理
+        </div>
+        <div class="post-meta">
+            2023-12-27 ｜ 
+            
+                <a href="/categories/Atomicals/"># Atomicals</a>
+            
+        </div>
+        <!-- 圆角分类 -->
+        <!-- <div class="tags"> -->
+            <!--  -->
+                <!-- <a href="/categories/Atomicals/">Atomicals</a> -->
+            <!--  -->
+        <!-- </div> -->
+        <div class="post-md">
+            <h2 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h2><ol>
+<li>安装 <a target="_blank" rel="noopener" href="https://nodejs.org/en">Node.js</a></li>
+<li><code>git clone https://github.com/atomicals/atomicals-js.git</code></li>
+<li><code>cd atomicals-JavaScript</code></li>
+<li><code>npm install -g typescript</code></li>
+<li><code>npm run build</code></li>
+<li><code>npm install -g yarn</code></li>
+<li><code>yarn install</code></li>
+<li><code>yarn cli wallet-init</code> &#x2F;&#x2F;这是创建钱包命令</li>
+</ol>
+<p>最后一步是创建钱包，命令运行后，会在文件夹内生成一个 wallet.json 文件，保存着助记词和私钥，请务必保存好该文件。</p>
+<p>创建钱包后，会自动生成两个地址，Primary Address 及 Funding Address：</p>
+<p><strong>Primary</strong>：用于接收Atomicals生态资产<br><strong>Funding</strong>：用于铸造（挖矿）过程的中转钱包，通常是往 Funding 地址中存入相应数量的 BTC，用于铸造相应资产。</p>
+<h2 id="常用指令"><a href="#常用指令" class="headerlink" title="常用指令"></a>常用指令</h2><h3 id="铸造-FT-命令："><a href="#铸造-FT-命令：" class="headerlink" title="铸造 FT 命令："></a>铸造 FT 命令：</h3><p><code>yarn cli mint-dft dmint --satsbyte 30</code></p>
+<p><code>yarn cli mint-dft quark --satsbyte=100</code></p>
+<p>dmint 和 quark 是 token 名称，请修改成相对应 FT 资产名称。<br>satsbyte 是矿工费设置，设置 100 即为 100聪&#x2F;KB 的费用 Mint 对应资产。</p>
+<h3 id="铸造图片NFT命令："><a href="#铸造图片NFT命令：" class="headerlink" title="铸造图片NFT命令："></a>铸造图片NFT命令：</h3><p><code>yarn cli mint-nft &quot;\punk0000.png&quot; --satsbyte 30 --satsoutput 1000 --bitworkc 233</code></p>
+<h3 id="查询余额命令："><a href="#查询余额命令：" class="headerlink" title="查询余额命令："></a>查询余额命令：</h3><p><code>npm run cli balances</code></p>
+
+        </div>
+    
+<!-- tags -->
+
+    <div class="post-meta">
+        标签：
+        
+            <a href="/tags/Atomicals/"> / Atomicals</a>
+        
+    </div>
+
+</div>
+                <div class="footer">
+    <span>Copyright © 2023 Len Chou</span>
+    <span>
+        <a href="/links">我的朋友</a>
+        ·
+        <a href="/cognitive-bias">认知偏差手册</a>
+    </span>
+</div>
+
+<link rel="stylesheet" href="/css/a11y-dark.min.css">
+
+
+<script src="/js/highlight.min.js"></script>
+
+
+<script src="/js/highlightjs-line-numbers.js"></script>
+
+<script>
+    hljs.initHighlightingOnLoad();
+    hljs.initLineNumbersOnLoad();
+</script>
+
+            </div>
+        </div>
+    </body>
+</html>
