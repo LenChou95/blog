@@ -4,27 +4,25 @@
     <meta name="robots" content="index, follow">
     <!-- title -->
     <% if (is_archive()) { %>
-    <title>所有文章 - <%= config.title %></title>
+        <title><%= page.current && page.current > 1 ? '第' + page.current + '页 - ' : '' %>所有文章 - <%= config.title %></title>
     <% } else if (is_category()) { %>
-    <title><%= page.category %> - <%= config.title %></title>
+        <title><%= page.category %> - <%= config.title %></title>
     <% } else if (is_tag()) { %>
-    <title><%= page.tag %> - <%= config.title %></title>
+        <title><%= page.tag %> - <%= config.title %></title>
     <% } else if (is_post()) { %>
-    <title><%= page.title %> - <%= config.title %></title>
-    <% } else if (page.path === 'index.html' || page.path === '') { %>
-    <title><%= config.title %></title>
+        <title><%= page.title %> - <%= config.title %></title>
     <% } else { %>
-    <title><%= page.title %> - <%= config.title %></title>
+        <title><%= page.current && page.current > 1 ? '第' + page.current + '页 - ' : '' %><%= config.title %></title>
     <% } %>
     <!-- open graph -->
     <%- open_graph() %>
     <!-- canonical -->
     <% if (page.path === 'index.html' || page.path === '') { %>
-    <link rel="canonical" href="<%= config.url %>">
+        <link rel="canonical" href="<%= config.url %>">
     <% } else if (page.path.endsWith('index.html')) { %>
-    <link rel="canonical" href="<%= config.url + '/' + page.path.replace('index.html', '') %>">
+        <link rel="canonical" href="<%= config.url + '/' + page.path.replace('index.html', '') %>">
     <% } else { %>
-    <link rel="canonical" href="<%= config.url + (page.path.startsWith('/') ? '' : '/') + page.path %>">
+        <link rel="canonical" href="<%= config.url + (page.path.startsWith('/') ? '' : '/') + page.path %>">
     <% } %>
     <!-- Favicon -->
     <link rel="shortcut icon" href="/img/favicon.ico">
@@ -43,5 +41,4 @@
     <%- css('css/style.css') %>
     <%- css('css/markdown.css') %>
     <%- css('css/fonts.css') %>
-  </head>
-  
+</head>
