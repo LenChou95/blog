@@ -1,9 +1,25 @@
 <div class="header">
-    <!-- <a class="logo" href="<%- url_for() %>"><%= config.title %></a> -->
     <div class="logo"><a href="/" title="Len"><img src="/img/logo.svg" alt="Len" aria-label="logo" height="20"></a></div>
+    <button class="hamburger" aria-label="菜单" onclick="toggleMenu()">☰</button>
+    
     <ul class="nav">
         <% for (name in theme.menu) { %>
         <li><a href="<%- url_for(theme.menu[name]) %>"><%= name %></a></li>
         <% } %>
     </ul>
+    <script>
+        function toggleMenu() {
+        var nav = document.querySelector('.nav');
+        var button = document.querySelector('.hamburger'); // 获取汉堡菜单按钮
+        nav.classList.toggle('active');
+        
+        // 检查当前图标是☰还是×，并切换
+        if (button.innerHTML === "☰") {
+            button.innerHTML = "×"; // 切换为×
+        } else {
+            button.innerHTML = "☰"; // 切换回☰
+        }
+    }
+    </script>
+        
 </div>
