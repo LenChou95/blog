@@ -58,21 +58,34 @@
         <div class="paper">
             <div class="paper-main">
                 
-                    <div class="post-header">
-    <!-- <a class="logo" href="/">Len Chou</a> -->
+                    <div class="header">
     <div class="logo"><a href="/" title="Len"><img src="/img/logo.svg" alt="Len" aria-label="logo" height="20"></a></div>
-        <ul class="nav">
-            
-            <li><a href="/">Home</a></li>
-            
-            <li><a href="/about">About</a></li>
-            
-            <li><a href="/archives">Archives</a></li>
-            
-        </ul>
-
-
-    </a>
+    <button class="hamburger" aria-label="菜单" onclick="toggleMenu()">☰</button>
+    
+    <ul class="nav">
+        
+        <li><a href="/">Home</a></li>
+        
+        <li><a href="/about">About</a></li>
+        
+        <li><a href="/archives">Archives</a></li>
+        
+    </ul>
+    <script>
+        function toggleMenu() {
+        var nav = document.querySelector('.nav');
+        var button = document.querySelector('.hamburger'); // 获取汉堡菜单按钮
+        nav.classList.toggle('active');
+        
+        // 检查当前图标是☰还是×，并切换
+        if (button.innerHTML === "☰") {
+            button.innerHTML = "×"; // 切换为×
+        } else {
+            button.innerHTML = "☰"; // 切换回☰
+        }
+    }
+    </script>
+        
 </div>
 
                 

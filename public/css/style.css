@@ -58,14 +58,30 @@ a
     justify-content: flex-start;
     align-content: center;
 }
-.logo
-{
+/* .logo */
+/* { */
+    /* font-size: 2rem; */
+    /* font-weight: 600; */
+    /* color: var(--font-color-1); */
+    /* margin-bottom: 23px; */
+    /* flex: 0 0 100%; */
+/* } */
+
+.logo {
     font-size: 2rem;
     font-weight: 600;
     color: var(--font-color-1);
     margin-bottom: 23px;
-    flex: 0 0 100%;
+    /* 移除 flex: 0 0 100%; 或者将其移至媒体查询内 */
 }
+
+@media (min-width: 768px) {
+    .logo {
+        /* 仅在屏幕宽度大于或等于768px时应用 */
+        flex: 0 0 100%;
+    }
+}
+
 .nav
 {
     margin: 0 0 4px;
@@ -386,4 +402,41 @@ a
 .tags .fix,.tags .bugfix {
     --color: #FF4772;
     color: #fff
+}
+
+
+
+/* 汉堡菜单 */
+.header {
+    display: flex;
+    justify-content: space-between; /* 确保子元素分布在容器两端 */
+    align-items: flex-start; /* 修改为flex-start以满足特定布局需求 */
+}
+
+.hamburger {
+    background-color: transparent; /* 透明背景 */
+    color: rgba(0, 0, 0, 0.505); /* 黑色图标 */
+    border: none; /* 无边框 */
+    cursor: pointer; /* 指针光标 */
+    font-size: 30px; /* 图标大小放大一倍 */
+    display: none; /* 默认隐藏，避免在PC端显示 */
+    align-items: center; /* 垂直居中 */
+    justify-content: center; /* 水平居中 */
+    height: 11px; /* 调整以确保按钮高度适中 */
+}
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: flex; /* 在移动端显示汉堡菜单图标 */
+    }
+
+    .nav {
+        display: none; /* 默认隐藏菜单项 */
+        flex-direction: column; /* 菜单项垂直排列 */
+        width: 100%; /* 确保菜单项在展开时占满整个宽度 */
+    }
+
+    .nav.active {
+        display: flex; /* 点击汉堡菜单后显示菜单项 */
+    }
 }
