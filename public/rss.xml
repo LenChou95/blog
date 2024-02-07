@@ -6,7 +6,7 @@
   <link href="https://imzl.com/rss.xml" rel="self"/>
   
   <link href="https://imzl.com/"/>
-  <updated>2023-12-26T17:35:43.337Z</updated>
+  <updated>2024-02-07T09:35:01.270Z</updated>
   <id>https://imzl.com/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Crypto 阅读列表</title>
+    <link href="https://imzl.com/crypto-reading.html"/>
+    <id>https://imzl.com/crypto-reading.html</id>
+    <published>2024-02-06T23:00:00.000Z</published>
+    <updated>2024-02-07T09:35:01.270Z</updated>
+    
+    
+    <summary type="html">碎片思考什么是产品人：产品经理需要平衡商业价值和用户价值的文章。了解如何超越表面的设计交互，找到真正的产品优势。</summary>
+    
+    
+    
+    <category term="Crypto" scheme="https://imzl.com/categories/Crypto/"/>
+    
+    
+    <category term="Crypto" scheme="https://imzl.com/tags/crypto/"/>
+    
+  </entry>
   
   <entry>
     <title>Atomicals 挖矿程序部署与钱包管理</title>
