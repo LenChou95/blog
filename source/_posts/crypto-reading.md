@@ -76,6 +76,7 @@ permalink: crypto-reading.html
 - [终局](https://vitalik.eth.limo/general/2021/12/06/endgame.html) — by Vitalik Buterin
 - [交易 metagame](https://cobie.substack.com/p/trading-the-metagame) — by Cobie 
 - [The Mirrortable](https://balajis.com/mirrortable/) — by Balaji Srinivasan
+- [白话比特币原理及运作机制](https://imzl.com/bitcoin-principle.html) — by 张洋
 
 ## 2022
 - [2021 NFT 年度回顾](https://www.1confirmation.com/2021-nft-annual-review) — by 1confirmation
