@@ -13,11 +13,8 @@
         <title><%= page.title %> - <%= config.title %></title>
     <% } else if (is_page()) { %>
         <title><%= page.title %> - <%= config.title %></title>
-
-        <% } else if (is_home()) { %>
-            <title><%= config.title %> @周良粥凉</title>
-
-
+    <% } else if (is_home()) { %>
+        <title><%= config.title %> @周良粥凉</title>
     <% } else { %>
         <title><%= page.current && page.current > 1 ? '第' + page.current + '页 - ' : '' %><%= config.title %></title>
     <% } %>
