@@ -5,7 +5,7 @@ categories:
 - [Crypto]
 tags: 
 - [Crypto]
-description: 碎片思考什么是产品人：产品经理需要平衡商业价值和用户价值的文章。了解如何超越表面的设计交互，找到真正的产品优势。
+description: 一部分推荐阅读的 Crypto 相关文章列表，涵盖整个 Crypto 的周期性思考，建议按时间顺序阅读。
 permalink: crypto-reading.html
 ---
 
