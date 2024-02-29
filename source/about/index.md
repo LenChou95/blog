@@ -22,6 +22,17 @@ CEO at Diginova co.，95后。以下是我过往经历的一些要点
 - **2010～2014** — 初中时自学设计、编程、SEO 等技能，创建并运营独立站，先后出售 4 个.
 
 ## 联系
-Email：wwwzhouliang {at} gmail.com
-[Twitter](https://x.com/lenchou95)
-[Telegram](https://t.me/lenchou95)
+- **Email：**wwwzhouliang {at} gmail.com
+- **[Twitter](https://x.com/lenchou95)**
+- **[Telegram](https://t.me/lenchou95)**
+
+## 捐赠
+如果我分享的内容对你有一些用处，不妨考虑请我喝一杯咖啡。区块链将铭记一切。
+
+- **ETH / EVM：** 0x31183cE910fb35fD6EBe9d6bf0911f28fFB964c5
+- **BTC：**33aw3yaVYMiqvCLEHiQr9QmTjoaFHLn3ku
+- **SOL：**2LpdKjD1x5ibvT7bRYEPSJTQHdQJycsiRLUoTbTpMjXV
+- **Doge：**DExqx51tBbJbRiVWhRDytzhC9wKBtJQoLd
+- **Tron：**THHa6UaP74Mrv6SE54KtrxMbjteV7sdXvY
+
+

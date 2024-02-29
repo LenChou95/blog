@@ -2,18 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://imzl.com/crypto-reading.html</loc>
+    <loc>https://imzl.com/about/</loc>
     
-    <lastmod>2024-02-07</lastmod>
+    <lastmod>2024-02-29</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://imzl.com/about/</loc>
+    <loc>https://imzl.com/crypto-reading.html</loc>
     
-    <lastmod>2024-01-10</lastmod>
+    <lastmod>2024-02-07</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -165,13 +165,6 @@
   </url>
   
   <url>
-    <loc>https://imzl.com/tags/product-manager/</loc>
-    <lastmod>2024-02-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://imzl.com/tags/imagination/</loc>
     <lastmod>2024-02-29</lastmod>
     <changefreq>weekly</changefreq>
@@ -187,6 +180,13 @@
   
   <url>
     <loc>https://imzl.com/tags/cultivation-fantasy/</loc>
+    <lastmod>2024-02-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://imzl.com/tags/product-manager/</loc>
     <lastmod>2024-02-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
